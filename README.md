@@ -12,6 +12,9 @@ HTML, CSS, JS, GPT API를 활용한 챗봇 만들기 프로젝트
 * 섭취한 칼로리를 소모하기 위해 할 수 있는 운동을 추천해 줍니다.
 
 ## 3. WBS
+![wbs](https://github.com/user-attachments/assets/4c8d97f7-1c74-44da-9b4c-f0a0d9fe4e2b)
+
+## 4. 와이어 프레임
 
 
 ## 참고 자료
