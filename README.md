@@ -15,7 +15,17 @@ HTML, CSS, JS, GPT API를 활용한 챗봇 만들기 프로젝트
 ![wbs](https://github.com/user-attachments/assets/4c8d97f7-1c74-44da-9b4c-f0a0d9fe4e2b)
 
 ## 4. 와이어 프레임
+![frame](https://github.com/user-attachments/assets/b9134302-6f68-4e5e-a742-cd7cb89b3c73)
 
+## 5. 시연 자료
+![gif](https://github.com/user-attachments/assets/23f5a30e-1c72-4f81-bfdd-ae871b064ffb)
+* [배포 링크](https://whaehofk521.github.io/MapleStorykcalBot/)
+
+## 6. 느낀점 및 개선사항
+* 처음 선정한 주제는 '제주도 디저트카페 추천'이었으나 실존하지 않는 곳을 계속해서 추천함
+  -> 실존 및 변경되는 정보 등을 제공하기 위해서는 그 정보를 제공하는 API가 따로 있어야 한다는 사실을 깨달았습니다.
+* 지속적으로 테스트해보며 프롬프트를 개선, 점점 나아지는 것이 눈에 보여 프롬프트 작성의 중요성을 다시 한번 더 알게 되었습니다.
+* 게임 ui를 최대한 비슷하게 구현했으면 더 재밌는 그림이 나왔을 것 같아 아쉬운 점이 있습니다.
 
 ## 참고 자료
 * [메이플스토리 나인하트 나무위키](https://namu.wiki/w/%EB%82%98%EC%9D%B8%ED%95%98%ED%8A%B8)
