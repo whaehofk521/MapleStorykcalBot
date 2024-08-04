@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대적자님, 몇칼로리 드셨습니까?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="backgroundMusic" src="QueensGarden.mp3" autoplay loop></audio>
+    <button id="toggleMusic">bgm 재생</button>
+    <div class="chat-container">
+        <h1>메이플스토리 나인하트 칼로리 계산기</h1>
+        <ul id="chatList"></ul>
+        <form id="chatForm">
+            <input type="text" id="chatInput" placeholder="여기에 입력해 주십시오.">
+            <button type="submit">전송</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        const audio = document.getElementById('backgroundMusic');
+        const toggleMusicButton = document.getElementById('toggleMusic');
+
+        audio.volume = 0.1;
+
+        toggleMusicButton.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                toggleMusicButton.textContent = 'bgm 일시정지';
+            } else {
+                audio.pause();
+                toggleMusicButton.textContent = 'bgm 재생';
+            }
+        });
+    </script>
+</body>
+</html>

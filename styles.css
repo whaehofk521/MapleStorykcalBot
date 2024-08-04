@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+body::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url('https://c.wallhere.com/photos/bc/31/video_games_MapleStory-1964617.jpg!d');
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    background-position: right bottom;
+    opacity: 0.85;
+}
+
+#toggleMusic {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #afe406;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    text-shadow:
+    -1px -1px 0 #5d8a00,
+    1px -1px 0 #5d8a00,
+    -1px 1px 0 #5d8a00,
+    1px 1px 0 #5d8a00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+#toggleMusic:hover {
+    background-color: #a4d61d;
+}
+
+.chat-container {
+    background-color: #0f93d6;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 400px;
+    max-width: 80%;
+    height: 650px;
+    max-height: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.95;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 16px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 6px;
+    border: 3px solid #dedede;
+    color: #ffffff;
+    background-color: #a3a3a3;
+    text-align: center;
+}
+
+#chatList {
+    list-style-type: none;
+    width: 96%;
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 5px solid #dedede;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+#chatList li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    max-width: 80%;
+    display: block;
+}
+
+.question {
+    background-color: #efefef;
+    text-align: right;
+    align-self: flex-end;
+    margin-left: auto;
+    float: right;
+    clear: both;
+}
+
+.answer {
+    background-color: #add8e6;
+    align-self: flex-start;
+    clear: both;
+}
+
+#chatForm {
+    display: flex;
+    width: 100%;
+}
+
+#chatInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 3px solid #dedede;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: -6px;
+}
+
+button {
+    padding: 13px 20px;
+    background-color: #afe406;
+    text-shadow:
+    -1px -1px 0 #5d8a00,
+    1px -1px 0 #5d8a00,
+    -1px 1px 0 #5d8a00,
+    1px 1px 0 #5d8a00;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: -6px;
+}
+
+button:hover {
+    background-color: #a4d61d;
+}
